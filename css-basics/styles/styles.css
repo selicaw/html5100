@@ -1,0 +1,10 @@
+      img {
+        width: 25%;
+        border-style: dashed;
+        border-color: violet;
+        border-width: 3px;
+      }
+      p {
+        color: teal;
+      }
+      .purple-text {color: purple;}
