@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Groups of Animals</title>
+    <style>
+      .grid-container div {
+        border: 1px solid black;
+      }
+
+      .grid-container {
+        display: grid;
+        grid-gap: 20px 30px;
+      }
+
+      .grid-item-1 {
+        grid-column: 1/2;
+        grid-row: 1/2;
+      }
+
+      .grid-item-2 {
+        grid-column: 2/3;
+        grid-row: 1/2;
+      }
+
+      .grid-item-3 {
+        grid-column: 1 / span 2;
+        grid-row: 3 / span 1;
+      }
+
+      .grid-item-4 {
+        grid-area: 4 / 2 / 5 / 3;
+      }
+
+      .grid-container {
+        grid-template-columns: 20px 30px 30px 40px;
+        grid-auto-rows: auto auto auto auto;
+        justify-content: space-evenly;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Groups of Animals</h1>
+    <div class="grid-container">
+      <div class="grid-item-1">
+        <p>A murder of crows</p>
+      </div>
+      <div class="grid-item-2">
+        <p>A gaggle of geese</p>
+      </div>
+      <div class="grid-item-3">
+        <p>A school of fish</p>
+      </div>
+      <div class="grid-item-4">
+        <p>A pride of lions</p>
+      </div>
+    </div>
+  </body>
+</html>
