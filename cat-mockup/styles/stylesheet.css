@@ -26,11 +26,11 @@ header {
 
 header h1 {
   text-transform: uppercase;
-  font-size: 48px;
+  font-size: 3em;
 }
 
 header h2 {
-  font-size: 24px;
+  font-size: 1.5em;
   font-style: italic;
   font-weight: lighter;
 }
@@ -62,7 +62,7 @@ header h2 {
 
 .about {
   flex: 65%;
-  padding-left: 150px;
+  padding-left: 50px;
   padding-top: 50px;
   padding-right: 50px;
   padding-bottom: 100px;
@@ -72,12 +72,12 @@ header h2 {
   flex: 35%;
     padding-left: 50px;
     padding-top: 50px;
-    padding-right: 150px;
+    padding-right: 50px;
     padding-bottom: 100px;
 }
 
 .highlight {
-  font-size: 24px;
+  font-size: 1.5em;
   color: #0099cc;
   font-weight: bolder;
   line-height: 1.5em;
@@ -86,7 +86,7 @@ header h2 {
 blockquote {
   margin-left: 0;
   color: #0099cc;
-  font-size: 24px;
+  font-size: 1.5em;
   line-height: 1.5em;
   padding-top: 20px;
   padding-bottom: 20px;

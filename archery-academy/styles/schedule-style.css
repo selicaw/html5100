@@ -8,6 +8,7 @@ table td, th {
 table th {
   white-space: nowrap;
   background-color: #ecb722;
+  font-size: 150%;
 }
 
 table td {
@@ -18,7 +19,7 @@ table td {
 
 table {
   table-layout: fixed;
-  width: 100%;
+  width: 125%;
 }
 
 td {
